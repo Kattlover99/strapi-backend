@@ -1,0 +1,31 @@
+{
+  "name": "worldcup-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.4.7",
+    "@strapi/plugin-users-permissions": "4.4.7",
+    "@strapi/strapi": "4.4.7",
+    "pg": "8.6.0",
+    "strapi-plugin-import-content": "^0.3.4",
+    "strapi-plugin-import-export-entries": "^1.17.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "1e496dbf-5a35-4ebf-aa17-fc1d32e76fa0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

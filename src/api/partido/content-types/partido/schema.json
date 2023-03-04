@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partidos",
+  "info": {
+    "singularName": "partido",
+    "pluralName": "partidos",
+    "displayName": "partidos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dia": {
+      "type": "date",
+      "required": true
+    },
+    "horario": {
+      "type": "string",
+      "required": true
+    },
+    "equipo_a": {
+      "type": "string",
+      "required": true
+    },
+    "equipo_b": {
+      "type": "string",
+      "required": true
+    },
+    "estadio": {
+      "type": "string",
+      "required": true
+    },
+    "grupo": {
+      "type": "string",
+      "required": true
+    },
+    "ganador": {
+      "type": "string"
+    },
+    "goles_a": {
+      "type": "integer"
+    },
+    "goles_b": {
+      "type": "integer"
+    },
+    "flag_a": {
+      "type": "string"
+    },
+    "flag_b": {
+      "type": "string"
+    }
+  }
+}
